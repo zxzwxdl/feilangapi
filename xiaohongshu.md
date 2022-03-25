@@ -9,60 +9,57 @@
 * 所有接口响应都很快，timeout 时间建议在5s内
 * 如需其他接口和数据，可定制开发
 * 内部使用，侵权联系删除
+* 所有接口没有特殊说明请求方式均为 GET
 
 
 ## 获取笔记详情
 ```
+path：
 /xhs/api/app/note
 
-参数解释
-参数名	
-token	验证码
+params：	
+token	验证码   
 note_id 笔记id
 
-
-返回内容
+response：
 返回值与小红书接口一样，对数据进行透传，请按照小红书页面对照理解意思
 ```
 
 ## 获取笔记评论列表
 ```
+path：
 /xhs/api/app/note/comment
 
-参数解释
-参数名	
+params：
 token	验证码
 note_id 笔记id
 
-
-返回内容
+response：
 返回值与小红书接口一样，对数据进行透传，请按照小红书页面对照理解意思
 ```
 
 ## 获取用户个人页信息
 ```
+path：
 /xhs/api/app/user
 
-参数解释
-参数名	
+params：
 token	验证码
 user_id 用户id
 
-
-返回内容
+response：
 返回值与小红书接口一样，对数据进行透传，请按照小红书页面对照理解意思
 ```
 
 ## 获取用户笔记列表
 ```
+path：
 /xhs/api/app/user/note
 
-参数解释
-参数名	
+params：
 token	验证码
 user_id 用户id
 
-
-返回内容
+response：
 返回值与小红书接口一样，对数据进行透传，请按照小红书页面对照理解意思
 ```
