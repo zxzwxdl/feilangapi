@@ -29,8 +29,18 @@
 <br/>
 <br/>
 [抖音接口文档](douyin.md)
-
-
+<br/>
+<br/>
+[饿了么接口文档](eleme.md)
+<br/>
+<br/>
+[快手接口文档](kuaishou.md)
+<br/>
+<br/>
+[大众点评接口文档](dazhongdianping.md)
+<br/>
+<br/>
+[京东接口文档](jingdong.md)
 
 <br/>
 ------------------
