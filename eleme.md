@@ -11,5 +11,47 @@
 * 内部使用，侵权联系删除
 * 所有接口没有特殊说明请求方式均为 GET
 
-# 待定
-私聊获取
+## 店铺详情
+```
+path：
+/ele/shop/info
+
+params：
+token	     验证码
+store_id     店铺id
+
+
+response：
+返回值与饿了么接口一样，对数据进行透传，请按照页面对照理解意思
+```
+
+## 店铺分类列表
+```
+path：
+/ele/cata/shop/
+
+params：
+token	     验证码
+store_id     店铺id
+
+
+response：
+返回值与饿了么接口一样，对数据进行透传，请按照页面对照理解意思
+```
+
+## 店铺分类列表
+```
+path：
+/ele/cata/shop/product
+
+params：
+token	     验证码
+store_id     店铺id
+cate_type    分类类型
+cate_id      分类id
+page         翻页
+
+
+response：
+返回值与饿了么接口一样，对数据进行透传，请按照页面对照理解意思
+```
