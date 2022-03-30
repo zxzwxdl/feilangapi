@@ -33,6 +33,7 @@ path：
 params：
 token	验证码
 note_id 笔记id
+end_id  默认为0，列表最后用户id作为下一页翻页参数
 
 response：
 返回值与小红书接口一样，对数据进行透传，请按照小红书页面对照理解意思
@@ -59,6 +60,7 @@ path：
 params：
 token	验证码
 user_id 用户id
+page    默认为1，翻页参数
 
 response：
 返回值与小红书接口一样，对数据进行透传，请按照小红书页面对照理解意思
