@@ -48,7 +48,7 @@ path：
 params：
 lng     经纬度
 lat     经纬度
-order	0 综合 5 最近
+order	0综合  1销量 2速度 3评分 4起送价 5最近
 token   验证码
 
 response：
