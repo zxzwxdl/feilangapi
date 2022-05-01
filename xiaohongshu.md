@@ -65,3 +65,18 @@ page    默认为1，翻页参数
 response：
 返回值与小红书接口一样，对数据进行透传，请按照小红书页面对照理解意思
 ```
+
+## 搜索笔记列表
+```
+path：
+/xhs/api/app/search/note
+
+params：
+token	验证码
+type 排序类型（hot=最热 time=最新 general=综合，默认：general）
+sort 图文类型（videos=视频 notes=图文 all=不限，默认：all）
+page    默认为1，翻页参数
+
+response：
+返回值与小红书接口一样，对数据进行透传，请按照小红书页面对照理解意思
+```
